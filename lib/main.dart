@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
   // Step one !!!
 
   // Test third commit
-  // Test second commit
-  // This widget is the root of your application.
+  // Test second local
+  // This local.
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(

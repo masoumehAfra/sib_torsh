@@ -23,7 +23,7 @@ class UserScreenState extends State<UserScreen> {
   void initState() {
     super.initState();
     GetIt.I.get<UserCubit>().userList();
-    // Step one !!!
+    // Step local !!!
   }
 
   @override
