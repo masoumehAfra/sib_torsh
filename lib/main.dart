@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
 
-  // Test remote aa
-  // This remote bb
+  // Test Local aa
+  // This Local bb
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
 
       ],
       child: MaterialApp(
-        title: 'Tichino 22',
+        title: 'Tichino 66',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

@@ -8,7 +8,7 @@ import '../widget/add_user.dart';
 import '../widget/user_item_card.dart';
 
 
-// Step remote aa !!!
+// Step Local aa !!!
 class UserScreen extends StatefulWidget {
   const UserScreen({Key? key}) : super(key: key);
 
@@ -23,7 +23,7 @@ class UserScreenState extends State<UserScreen> {
   void initState() {
     super.initState();
     GetIt.I.get<UserCubit>().userList();
-    // Step remote aa !!!
+    // Step Local aa !!!
   }
 
   @override
