@@ -71,14 +71,14 @@ class UserScreenState extends State<UserScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Text(
-                      "ارتباط برقرار نشد",
+                      "No Connection",
                       style: TextStyle(color: Colors.black, fontSize: 16),
                     ),
                     const SizedBox(
                       height: 15,
                     ),
                     Text(
-                      "لطفا از وصل بودن اینترنت مطمئن شوید",
+                      "Be sure internet is connected",
                       style: TextStyle(
                           color: StaticData.greyColor_6, fontSize: 16),
                     ),
@@ -100,7 +100,7 @@ class UserScreenState extends State<UserScreen> {
                           // border: Border.all(color: StaticData.mediumBlueColor,width: 1.5)
                         ),
                         child: const Text(
-                          "تلاش دوباره",
+                          "Try again",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 16,
