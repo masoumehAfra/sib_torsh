@@ -47,13 +47,13 @@ class UserScreenState extends State<UserScreen> {
             if (state is ContentLoading) {
               return const Center(
                 child: CircularProgressIndicator(
-                 // color: StaticData.appPrimaryColor,
+                  color: Colors.red,
                 ),
               );
             } else if (state is ContentLoaded) {
 
               return Container(
-                color: Colors.white,
+                color: Colors.red,
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 child:ListView.builder(
                     itemCount:state.contentList.length,
