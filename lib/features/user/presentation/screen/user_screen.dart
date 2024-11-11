@@ -8,7 +8,6 @@ import '../widget/add_user.dart';
 import '../widget/user_item_card.dart';
 
 
-// Step Local aa !!!
 class UserScreen extends StatefulWidget {
   const UserScreen({Key? key}) : super(key: key);
 
@@ -23,7 +22,6 @@ class UserScreenState extends State<UserScreen> {
   void initState() {
     super.initState();
     GetIt.I.get<UserCubit>().userList();
-    // Step Local aa !!!
   }
 
   @override
@@ -47,7 +45,7 @@ class UserScreenState extends State<UserScreen> {
           bloc: GetIt.I.get<UserCubit>(),
           builder: ((context, state) {
             if (state is ContentLoading) {
-              return Center(
+              return const Center(
                 child: CircularProgressIndicator(
                  // color: StaticData.appPrimaryColor,
                 ),
